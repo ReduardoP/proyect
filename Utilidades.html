@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utilidades de la GRID de Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap 5/css/bootstrap.min.css">
+
+<STyle>
+    .row
+    {
+        background: radial-gradient(rgb(222, 222, 222),rgb(255, 255, 255));
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .columnas
+    {
+        background: radial-gradient(rgb(248, 248, 248),rgb(239, 239, 239));
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+    }
+</STyle>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Ordenar columnas con order -1 al order -5</h3>
+        <div class="row">
+            <div class="columnas col order-4 order-md-1 order-xxl-4">columna 1</div>
+            <div class="columnas col order-3 order-md-2 order-xxl-3">columna 2</div>
+            <div class="columnas col order-2 order-md-3 order-xxl-2">columna 3</div>
+            <div class="columnas col order-1 order-md-4 order-xxl-1">columna 4</div>
+        </div>
+
+        <h3>Ordenar columnas con order-last y order-first</h3>
+        <div class="row">
+            <div class="columnas col order-last">columna 1</div>
+            <div class="columnas col order-first">columna 2</div>
+            <div class="columnas col order-">columna 3</div>
+            <div class="columnas col order-">columna 4</div>
+        </div>
+
+        <h3>Ordenar columnas con offset</h3>
+        <p>Con offset indico cuantas columnas a la derecha se va a posicionar el elemento al que se le agrega la clase</p>
+        <div class="row">
+            <div class="columnas col-3 offset-3">columna 1</div>
+        </div>
+
+        <div class="row">
+            <div class="columnas col-3 offset-6">columna 1</div>
+        </div>
+
+        <div class="row">
+            <div class="columnas col-3 offset-9">columna 1</div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columnas Horizontales</title>
+    <link rel="stylesheet" href="bootstrap 5/css/bootstrap.min.css">
+
+    <style>
+        .row{
+            background-image: linear-gradient(white,rgb(174, 174, 174));
+            margin-top: 20px;
+        }
+        .columnas{
+            background: radial-gradient(white,gray);
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5061;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <button class="btn btn-primary">boton de prueba</button>
+
+    <div class="row justify-content-start">
+        <div class="columnas col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">Columna 1</div>
+        <div class="columnas col-md-4 col-lg-4 col-xl-4 col-xxl-4">Columna 2</div>
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 3</div>
+    </div>
+    <div class="row justify-content-end">
+        <div class="columnas col-md-4 col-lg-4 col-xl-4 col-xxl-4">Columna 1</div>
+        <div class="columnas col-md-4 col-lg-4 col-xl-4 col-xxl-4">Columna 2</div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 1</div>
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 2</div>
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 3</div>
+    </div>
+    <div class="row justify-content-around">
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 1</div>
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 2</div>
+    </div>
+    <div class="row justify-content-between">
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 1</div>
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 1</div>
+    </div>
+    <div class="row justify-content-evenly">
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 1</div>
+        <div class="columnas col-md-3 col-lg-3 col-xl-3 col-xxl-3">Columna 2</div>
+    </div>
+</div>
+</body>
+</html>
